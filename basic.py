@@ -1854,10 +1854,10 @@ class BuiltInFunction(BaseFunction):
     return RTResult().success(Number.null)
   execute_run.arg_names = ["fn"]
 
-BuiltInFunction.print       = BuiltInFunction("print")
-BuiltInFunction.print_ret   = BuiltInFunction("print_ret")
-BuiltInFunction.input       = BuiltInFunction("input")
-BuiltInFunction.input_int   = BuiltInFunction("input_int")
+BuiltInFunction.print       = BuiltInFunction("say")
+BuiltInFunction.print_ret   = BuiltInFunction("say_ret")
+BuiltInFunction.input       = BuiltInFunction("keyi")
+BuiltInFunction.input_int   = BuiltInFunction("keyi_int")
 BuiltInFunction.clear       = BuiltInFunction("clear")
 BuiltInFunction.is_number   = BuiltInFunction("is_number")
 BuiltInFunction.is_string   = BuiltInFunction("is_string")
